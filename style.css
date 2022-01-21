@@ -1,0 +1,45 @@
+.card
+{
+    
+     border-radius:20px;
+     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+body
+{
+    background: linear-gradient(to right,#0dcaf0,#dee4b0) !important;
+    overflow:auto;
+    margin-left:33.33%; 
+    margin-right: 33.33%;
+    margin-top: 240px;
+    margin-bottom:240px ;
+}
+
+@media screen and (max-width: 760px) {
+     body
+     {
+        margin-left:0px; margin-right:0px;
+        
+     }
+   
+     
+ }
+ @media screen and (max-width:1400px)
+ {
+    body {
+        margin-left:20%;
+        margin-right:20%;
+         
+     }
+    
+ }
+ @media screen and (max-width:1028px)
+ {
+    body {
+        margin-left:10%;
+        margin-right:10%;
+         
+     }
+    
+ }
