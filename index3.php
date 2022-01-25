@@ -12,7 +12,7 @@
     <title>Student-option</title>
 </head>
 <body >
-    <div class="row gx-5" style="">
+    <div class="row"  style="height:1050px;"  >
             <!--sidebar-->
           <?php 
             $active1="";

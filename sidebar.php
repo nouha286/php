@@ -1,4 +1,4 @@
-<div class="sidebar col-2"  >
+<div class="sidebar col-2 mx-auto min-vh-100">
             <div class="my-5 d-none d-xxl-block ">
                 <h1 class="border-start ms-3 border-4 border-info">E-classe</h1>
         

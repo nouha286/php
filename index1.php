@@ -7,12 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="style2.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
     <title>E-classe</title>
 </head>
 <body >
-    <div class="row gx-5">
+    <div class="row"  style="height:1050px;">
         <!--sidebar-->
         
        <?php 
@@ -34,7 +35,7 @@
 
             <?php include('navbar.php');    ?>
 
-                <div class="row  gx-5 gy-3" style="height: 250px;">
+                <div class="row  mx-3 gx-5 gy-3" style="height: 250px;">
                     <!--col1-->
                     <div class="col-sm-12 col-xl-3 col-lg-6 col-md-6  op " >
                         <div class="p-5" style="  border-radius: 10px; background: #F0F9FF; "><div><i  style=" color: #74C1ED; "  class="fas fa-3x fa-graduation-cap "></i></div><p> students</p> <div class="text-end nb">243</div> </div>

@@ -12,7 +12,7 @@
     <title>Student-option</title>
 </head>
 <body>
-    <div class="row" style="">
+    <div class="row"  style="height:1050px;">
             <!--sidebar-->
            <?php  
             $active1="";
@@ -69,8 +69,8 @@
                 'Email' => 'user@email.com',
                 'Phone' =>'john@example.com',
                 'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760',
-                '' => '<a href=""><i class="fas fa-pen text-info"></i></a><span style="color:white;">---</span><a href=""><i class="fas fa-trash text-info"></i></a>'
+                'Date_of_admission' =>'1234567305477760'
+                
                 ],
 
                 
@@ -79,8 +79,8 @@
                 'Email' => 'user@email.com',
                 'Phone' =>'john@example.com',
                 'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760',
-                '' => '<a href=""><i class="fas fa-pen text-info"></i></a><span style="color:white;">---</span><a href=""><i class="fas fa-trash text-info"></i></a>'
+                'Date_of_admission' =>'1234567305477760'
+                
                 ],
                 
                [
@@ -88,8 +88,8 @@
                 'Email' => 'user@email.com',
                 'Phone' =>'john@example.com',
                 'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760',
-                '' => '<a href=""><i class="fas fa-pen text-info"></i></a><span style="color:white;">---</span><a href=""><i class="fas fa-trash text-info"></i></a>'
+                'Date_of_admission' =>'1234567305477760'
+                
                 ],
 
                 
@@ -98,8 +98,8 @@
                 'Email' => 'user@email.com',
                 'Phone' =>'john@example.com',
                 'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760',
-                '' => '<a href=""><i class="fas fa-pen text-info"></i></a><span style="color:white;">---</span><a href=""><i class="fas fa-trash text-info"></i></a>'
+                'Date_of_admission' =>'1234567305477760'
+                
                 ],
 
                 
@@ -108,8 +108,8 @@
                 'Email' => 'user@email.com',
                 'Phone' =>'john@example.com',
                 'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760',
-                '' => '<a href=""><i class="fas fa-pen text-info"></i></a><span style="color:white;">---</span><a href=""><i class="fas fa-trash text-info"></i></a>'
+                'Date_of_admission' =>'1234567305477760'
+                
                 ],
 
                 
@@ -118,8 +118,8 @@
                 'Email' => 'user@email.com',
                 'Phone' =>'john@example.com',
                 'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760',
-                '' => '<a href=""><i class="fas fa-pen text-info"></i></a><span style="color:white;">---</span><a href=""><i class="fas fa-trash text-info"></i></a>'
+                'Date_of_admission' =>'1234567305477760'
+                
                 ],
 
                 
@@ -128,8 +128,8 @@
                 'Email' => 'user@email.com',
                 'Phone' =>'john@example.com',
                 'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760',
-                '' => '<a href=""><i class="fas fa-pen text-info"></i></a><span style="color:white;">---</span><a href=""><i class="fas fa-trash text-info"></i></a>'
+                'Date_of_admission' =>'1234567305477760'
+                
                 ],
 
 
@@ -138,15 +138,15 @@
 
              foreach ($tableau as $key => $table) {
                  $key++;
-                echo "<tr>
-                        <td>".$key."</td>
-                        <td>".$table['Name'].$key."</td>
-                        <td>".$table['Email']."</td>
-                        <td>".$table['Phone']."</td>
-                        <td>".$table['Entroll_Number']."</td>
-                        <td>".$table['Date_of_admission']."</td>
-                        <td>".$table['']."</td>
-                    </tr>";
+                echo '<tr>
+                        <td>'.$key.'</td>
+                        <td>'.$table['Name'].$key.'</td>
+                        <td>'.$table['Email'].'</td>
+                        <td>'.$table['Phone'].'</td>
+                        <td>'.$table['Entroll_Number'].'</td>
+                        <td>'.$table['Date_of_admission'].'</td>
+                        <td><a href=""><i class="fas fa-pen text-info"></i></a><span style="color:white;">---</span><a href=""><i class="fas fa-trash text-info"></i></a></td>
+                    </tr>';
                         
                 
              }
