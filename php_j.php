@@ -62,85 +62,20 @@
                     
                                 <tbody>
                                 <?php 
-    $tableau=[
-
-                [
-                'Name' =>'Username',
-                'Email' => 'user@email.com',
-                'Phone' =>'john@example.com',
-                'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760'
-                
-                ],
-
-                
-                 [
-                'Name' =>'Username',
-                'Email' => 'user@email.com',
-                'Phone' =>'john@example.com',
-                'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760'
-                
-                ],
-                
-               [
-                'Name' =>'Username',
-                'Email' => 'user@email.com',
-                'Phone' =>'john@example.com',
-                'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760'
-                
-                ],
-
-                
-                 [
-                'Name' =>'Username',
-                'Email' => 'user@email.com',
-                'Phone' =>'john@example.com',
-                'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760'
-                
-                ],
-
-                
-                 [
-                'Name' =>'Username',
-                'Email' => 'user@email.com',
-                'Phone' =>'john@example.com',
-                'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760'
-                
-                ],
-
-                
-                 [
-                'Name' =>'Username',
-                'Email' => 'user@email.com',
-                'Phone' =>'john@example.com',
-                'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760'
-                
-                ],
-
-                
-                 [
-                'Name' =>'Username',
-                'Email' => 'user@email.com',
-                'Phone' =>'john@example.com',
-                'Entroll_Number' => '7305477760',
-                'Date_of_admission' =>'1234567305477760'
-                
-                ],
 
 
-            ];
 
 
-             foreach ($tableau as $key => $table) {
-                 $key++;
+                       $tableaus=file_get_contents('students.json');
+                       $tableau = json_decode($tableaus, true);
+
+
+  
+             foreach ($tableau as  $table) {
+                
                 echo '<tr>
-                        <td><img src="photo.png" alt=""></td>
-                        <td>'.$table['Name'].$key.'</td>
+                        
+                        <td>'.$table['Name'].'</td>
                         <td>'.$table['Email'].'</td>
                         <td>'.$table['Phone'].'</td>
                         <td>'.$table['Entroll_Number'].'</td>
@@ -149,7 +84,7 @@
                     </tr>';
                         
                 
-             }
+             };
                  
              
 ?>

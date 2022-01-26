@@ -1,0 +1,49 @@
+[
+
+    {  "Name":"Username",
+    "Email": "user@email.com",
+    "Phone" :"john@example.com",
+    "Entroll_Number": "7305477760",
+    "Date_of_admission":"1234567305477760"},
+  
+    
+    {  "Name":"Username",
+        "Email": "user@email.com",
+        "Phone" :"john@example.com",
+        "Entroll_Number": "7305477760",
+        "Date_of_admission":"1234567305477760"},
+    
+        {  "Name":"Username",
+            "Email": "user@email.com",
+            "Phone" :"john@example.com",
+            "Entroll_Number": "7305477760",
+            "Date_of_admission":"1234567305477760"},
+    
+            {  "Name":"Username",
+                "Email": "user@email.com",
+                "Phone" :"john@example.com",
+                "Entroll_Number": "7305477760",
+                "Date_of_admission":"1234567305477760"},
+
+    
+                {  "Name":"Username",
+                    "Email": "user@email.com",
+                    "Phone" :"john@example.com",
+                    "Entroll_Number": "7305477760",
+                    "Date_of_admission":"1234567305477760"},
+
+    
+                    {  "Name":"Username",
+                        "Email": "user@email.com",
+                        "Phone" :"john@example.com",
+                        "Entroll_Number": "7305477760",
+                        "Date_of_admission":"1234567305477760"},
+
+    
+                        {  "Name":"Username",
+                            "Email": "user@email.com",
+                            "Phone" :"john@example.com",
+                            "Entroll_Number": "7305477760",
+                            "Date_of_admission":"1234567305477760"}
+
+]
